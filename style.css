@@ -1,0 +1,140 @@
+/* outfit-regular - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: "Outfit";
+	font-style: normal;
+	font-weight: 400;
+	src: url("/fonts/outfit-v15-latin-regular.woff2") format("woff2");
+}
+/* outfit-600 - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: "Outfit";
+	font-style: normal;
+	font-weight: 600;
+	src: url("/fonts/outfit-v15-latin-600.woff2") format("woff2");
+}
+
+:root {
+	--c-white: hsl(0, 0%, 100%);
+	--c-slate-900: hsl(218, 44%, 22%);
+	--c-slate-500: hsl(216, 15%, 48%);
+	--c-slate-300: hsl(212, 45%, 89%);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+	font-size: 62.5%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin-block: 0;
+	margin-inline: 0;
+}
+
+ul[role="list"],
+ol[role="list"] {
+	list-style: none;
+}
+
+body {
+	font-family: "Outfit", Arial, Helvetica, sans-serif;
+	min-height: 100vh;
+	line-height: 1.5;
+	background-color: var(--c-slate-300);
+	position: relative;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	line-height: 1.1;
+	text-wrap: balance;
+}
+
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+	color: currentColor;
+}
+
+img,
+picture {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+:target {
+	scroll-margin-block: 5ex;
+}
+
+.text-preset-1 {
+	font-size: 2.2rem;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: 0px;
+	color: var(--c-slate-900);
+}
+
+.text-preset-2 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+	color: var(--c-slate-500);
+}
+
+main {
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+}
+
+.qrcode {
+	width: min(calc(100% - 55px), 32rem);
+	background-color: var(--c-white);
+	padding: 1.6rem;
+	border-radius: 1rem;
+}
+
+.qrcode__image {
+	width: 28.8rem;
+	border-radius: 1rem;
+}
+
+.qrcode__details {
+	display: grid;
+	text-align: center;
+	margin-block: 2.4rem;
+	gap: 1.6rem;
+}
+
+.attribution {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+
+	@media (min-width: 375px) {
+		bottom: 1rem;
+	}
+}
