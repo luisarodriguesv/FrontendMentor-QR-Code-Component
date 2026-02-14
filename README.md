@@ -11,7 +11,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
-- Live Site URL: [https://luisamrv.github.io/FM-QR-Code-Component/](https://luisamrv.github.io/FM-QR-Code-Component/)
+- Live Site URL: [https://luisarodriguesv.github.io/FrontendMentor-QR-Code-Component/](https://luisarodriguesv.github.io/FrontendMentor-QR-Code-Component/)
 
 ## My process
 
@@ -25,4 +25,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Frontend Mentor - [@luisamrv](https://www.frontendmentor.io/profile/luisamrv)
+- Frontend Mentor - [@luisarodriguesv](https://www.frontendmentor.io/profile/luisarodriguesv)
